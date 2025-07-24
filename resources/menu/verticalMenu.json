@@ -1,0 +1,89 @@
+{
+    "menu": [
+        {
+            "name": "Beranda",
+            "icon": "menu-icon tf-icons ti ti-smart-home",
+            "url": "/",
+            "slug": "dashboard-analytics"
+        },
+        {
+            "name": "Data Master",
+            "icon": "menu-icon tf-icons ti ti-database",
+            "slug": "data-master",
+            "submenu": [
+                {
+                    "url": "data-master/guru",
+                    "name": "Guru",
+                    "slug": "data-master-guru"
+                },
+                {
+                    "url": "data-master/kelas",
+                    "name": "Kelas",
+                    "slug": "data-master-kelas"
+                },
+                {
+                    "url": "data-master/kelas-siswa",
+                    "name": "Kelas Siswa",
+                    "slug": "data-master-kelas-siswa"
+                },
+                {
+                    "url": "data-master/mata-pelajaran",
+                    "name": "Mata Pelajaran",
+                    "slug": "data-master-mata-pelajaran"
+                },
+                {
+                    "url": "data-master/muatan-lokal",
+                    "name": "Muatan Lokal",
+                    "slug": "data-master-muatan-lokal"
+                },
+                {
+                    "url": "data-master/semester",
+                    "name": "Semester",
+                    "slug": "data-master-semester"
+                },
+                {
+                    "url": "data-master/siswa",
+                    "name": "Siswa",
+                    "slug": "data-master-siswa"
+                },
+                {
+                    "url": "data-master/tahun-ajaran",
+                    "name": "Tahun Ajaran",
+                    "slug": "data-master-tahun-ajaran"
+                },
+                {
+                    "url": "data-master/users",
+                    "name": "Pengguna",
+                    "slug": "data-master-users"
+                },
+                {
+                    "url": "data-master/wali-kelas",
+                    "name": "Wali Kelas",
+                    "slug": "data-master-wali-kelas"
+                }
+            ]
+        },
+        {
+            "name": "Akun",
+            "icon": "menu-icon tf-icons ti ti-user",
+            "slug": "account",
+            "submenu": [
+                {
+                    "url": "profile-account",
+                    "name": "Profil",
+                    "slug": "profile-account"
+                },
+                {
+                    "url": "profile-security",
+                    "name": "Keamanan",
+                    "slug": "profile-security"
+                },
+                {
+                    "url": "logout",
+                    "name": "Keluar",
+                    "slug": "logout"
+                }
+            ]
+        }
+    ]
+}

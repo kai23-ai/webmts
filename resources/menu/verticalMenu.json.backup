@@ -1,0 +1,83 @@
+{
+  "menu": [
+    {
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons ti ti-smart-home",
+      "url": "/",
+      "slug": "dashboard-analytics"
+    },
+    {
+      "name": "Data Master",
+      "icon": "menu-icon tf-icons ti ti-database",
+      "slug": "data-master",
+      "submenu": [
+        {
+          "url": "data-master/guru",
+          "name": "Data Guru",
+          "slug": "data-master-guru"
+        },
+        {
+          "url": "data-master/siswa",
+          "name": "Data Siswa",
+          "slug": "data-master-siswa"
+        },
+        {
+          "url": "data-master/kelas",
+          "name": "Data Kelas",
+          "slug": "data-master-kelas"
+        },
+        {
+          "url": "data-master/mata-pelajaran",
+          "name": "Data Mata Pelajaran",
+          "slug": "data-master-mata-pelajaran"
+        }
+      ]
+    },
+    {
+      "name": "History",
+      "icon": "menu-icon tf-icons ti ti-history",
+      "url": "history",
+      "slug": "history"
+    },
+    {
+      "name": "Input Nilai",
+      "icon": "menu-icon tf-icons ti ti-edit",
+      "url": "input-nilai",
+      "slug": "input-nilai"
+    },
+    {
+      "name": "Histori",
+      "icon": "menu-icon tf-icons ti ti-history",
+      "url": "histori",
+      "slug": "histori"
+    },
+    {
+      "name": "Lihat Nilai",
+      "icon": "menu-icon tf-icons ti ti-eye",
+      "url": "lihat-nilai",
+      "slug": "lihat-nilai"
+    },
+    {
+      "name": "Account",
+      "icon": "menu-icon tf-icons ti ti-user",
+      "slug": "account",
+      "submenu": [
+        {
+          "url": "profile-account",
+          "name": "Profile",
+          "slug": "profile-account"
+        },
+        {
+          "url": "profile-security",
+          "name": "Security",
+          "slug": "profile-security"
+        },
+        {
+          "url": "logout",
+          "name": "Logout",
+          "slug": "logout"
+        }
+      ]
+    }
+  ]
+}
